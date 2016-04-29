@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066D12021CC9EBBC0035B443 /* CustomControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 066D12011CC9EBBC0035B443 /* CustomControls.h */; };
+		066D12101CC9EC520035B443 /* ZYRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 066D120C1CC9EC520035B443 /* ZYRadioButton.m */; };
+		066D12131CC9EC880035B443 /* ZYRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 066D12121CC9EC880035B443 /* ZYRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06BF73FA1CD3196F00B37422 /* CustomControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 06BF73F91CD3196F00B37422 /* CustomControls.bundle */; };
+		06BF73FD1CD31A0000B37422 /* BundleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 06BF73FB1CD31A0000B37422 /* BundleTools.h */; };
+		06BF73FE1CD31A0000B37422 /* BundleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BF73FC1CD31A0000B37422 /* BundleTools.m */; };
+		06C070CB1CD0ECA2004B2897 /* NIDropDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C070C71CD0ECA2004B2897 /* NIDropDown.h */; };
+		06C070CC1CD0ECA2004B2897 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C070C81CD0ECA2004B2897 /* NIDropDown.m */; };
+		06C070CD1CD0ECA2004B2897 /* UIComboBoxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C070C91CD0ECA2004B2897 /* UIComboBoxView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C070CE1CD0ECA2004B2897 /* UIComboBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C070CA1CD0ECA2004B2897 /* UIComboBoxView.m */; };
+		06C070D21CD0ED60004B2897 /* IAMICObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 06C070D01CD0ED60004B2897 /* IAMICObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C070D31CD0ED60004B2897 /* IAMICObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C070D11CD0ED60004B2897 /* IAMICObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		066D11FE1CC9EBBC0035B443 /* CustomControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		066D12011CC9EBBC0035B443 /* CustomControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomControls.h; sourceTree = "<group>"; };
+		066D12031CC9EBBC0035B443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		066D120C1CC9EC520035B443 /* ZYRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYRadioButton.m; sourceTree = "<group>"; };
+		066D12121CC9EC880035B443 /* ZYRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYRadioButton.h; sourceTree = "<group>"; };
+		06BF73F91CD3196F00B37422 /* CustomControls.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CustomControls.bundle; sourceTree = "<group>"; };
+		06BF73FB1CD31A0000B37422 /* BundleTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleTools.h; sourceTree = "<group>"; };
+		06BF73FC1CD31A0000B37422 /* BundleTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleTools.m; sourceTree = "<group>"; };
+		06C070C71CD0ECA2004B2897 /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDropDown.h; sourceTree = "<group>"; };
+		06C070C81CD0ECA2004B2897 /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDropDown.m; sourceTree = "<group>"; };
+		06C070C91CD0ECA2004B2897 /* UIComboBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIComboBoxView.h; sourceTree = "<group>"; };
+		06C070CA1CD0ECA2004B2897 /* UIComboBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIComboBoxView.m; sourceTree = "<group>"; };
+		06C070D01CD0ED60004B2897 /* IAMICObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAMICObject.h; sourceTree = "<group>"; };
+		06C070D11CD0ED60004B2897 /* IAMICObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAMICObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		066D11FA1CC9EBBC0035B443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066D11F41CC9EBBC0035B443 = {
+			isa = PBXGroup;
+			children = (
+				066D12001CC9EBBC0035B443 /* CustomControls */,
+				066D11FF1CC9EBBC0035B443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		066D11FF1CC9EBBC0035B443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				066D11FE1CC9EBBC0035B443 /* CustomControls.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		066D12001CC9EBBC0035B443 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				06BF73F91CD3196F00B37422 /* CustomControls.bundle */,
+				06C070CF1CD0ED60004B2897 /* IAMIC */,
+				06C070C51CD0ECA2004B2897 /* UIComboBox */,
+				066D12091CC9EC520035B443 /* RadioButton */,
+				066D12011CC9EBBC0035B443 /* CustomControls.h */,
+				066D12031CC9EBBC0035B443 /* Info.plist */,
+				06BF73FB1CD31A0000B37422 /* BundleTools.h */,
+				06BF73FC1CD31A0000B37422 /* BundleTools.m */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		066D12091CC9EC520035B443 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				066D12121CC9EC880035B443 /* ZYRadioButton.h */,
+				066D120C1CC9EC520035B443 /* ZYRadioButton.m */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		06C070C51CD0ECA2004B2897 /* UIComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				06C070C61CD0ECA2004B2897 /* NIDropDown */,
+				06C070C91CD0ECA2004B2897 /* UIComboBoxView.h */,
+				06C070CA1CD0ECA2004B2897 /* UIComboBoxView.m */,
+			);
+			path = UIComboBox;
+			sourceTree = "<group>";
+		};
+		06C070C61CD0ECA2004B2897 /* NIDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				06C070C71CD0ECA2004B2897 /* NIDropDown.h */,
+				06C070C81CD0ECA2004B2897 /* NIDropDown.m */,
+			);
+			path = NIDropDown;
+			sourceTree = "<group>";
+		};
+		06C070CF1CD0ED60004B2897 /* IAMIC */ = {
+			isa = PBXGroup;
+			children = (
+				06C070D01CD0ED60004B2897 /* IAMICObject.h */,
+				06C070D11CD0ED60004B2897 /* IAMICObject.m */,
+			);
+			path = IAMIC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		066D11FB1CC9EBBC0035B443 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BF73FD1CD31A0000B37422 /* BundleTools.h in Headers */,
+				06C070CD1CD0ECA2004B2897 /* UIComboBoxView.h in Headers */,
+				06C070D21CD0ED60004B2897 /* IAMICObject.h in Headers */,
+				06C070CB1CD0ECA2004B2897 /* NIDropDown.h in Headers */,
+				066D12131CC9EC880035B443 /* ZYRadioButton.h in Headers */,
+				066D12021CC9EBBC0035B443 /* CustomControls.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		066D11FD1CC9EBBC0035B443 /* CustomControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066D12061CC9EBBC0035B443 /* Build configuration list for PBXNativeTarget "CustomControls" */;
+			buildPhases = (
+				066D11F91CC9EBBC0035B443 /* Sources */,
+				066D11FA1CC9EBBC0035B443 /* Frameworks */,
+				066D11FB1CC9EBBC0035B443 /* Headers */,
+				066D11FC1CC9EBBC0035B443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomControls;
+			productName = CustomControls;
+			productReference = 066D11FE1CC9EBBC0035B443 /* CustomControls.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		066D11F51CC9EBBC0035B443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jdfemqi;
+				TargetAttributes = {
+					066D11FD1CC9EBBC0035B443 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 066D11F81CC9EBBC0035B443 /* Build configuration list for PBXProject "CustomControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 066D11F41CC9EBBC0035B443;
+			productRefGroup = 066D11FF1CC9EBBC0035B443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				066D11FD1CC9EBBC0035B443 /* CustomControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		066D11FC1CC9EBBC0035B443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BF73FA1CD3196F00B37422 /* CustomControls.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066D11F91CC9EBBC0035B443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066D12101CC9EC520035B443 /* ZYRadioButton.m in Sources */,
+				06BF73FE1CD31A0000B37422 /* BundleTools.m in Sources */,
+				06C070CC1CD0ECA2004B2897 /* NIDropDown.m in Sources */,
+				06C070D31CD0ED60004B2897 /* IAMICObject.m in Sources */,
+				06C070CE1CD0ECA2004B2897 /* UIComboBoxView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		066D12041CC9EBBC0035B443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		066D12051CC9EBBC0035B443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		066D12071CC9EBBC0035B443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CustomControls/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hy.CustomControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		066D12081CC9EBBC0035B443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CustomControls/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hy.CustomControls;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		066D11F81CC9EBBC0035B443 /* Build configuration list for PBXProject "CustomControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066D12041CC9EBBC0035B443 /* Debug */,
+				066D12051CC9EBBC0035B443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066D12061CC9EBBC0035B443 /* Build configuration list for PBXNativeTarget "CustomControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066D12071CC9EBBC0035B443 /* Debug */,
+				066D12081CC9EBBC0035B443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 066D11F51CC9EBBC0035B443 /* Project object */;
+}
